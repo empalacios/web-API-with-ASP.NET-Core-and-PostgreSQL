@@ -1,15 +1,11 @@
 -- DROP SCHEMA basedeprueba;
 
-CREATE SCHEMA todoapi;
 
--- Drop table
-
--- DROP TABLE basedeprueba.organizacion;
-
-CREATE TABLE todoapi.todoitem (
-    id          serial  NOT NULL,
-    name        text    NOT NULL,
-    is_complete boolean NOT NULL,
-    CONSTRAINT todoapi_fk PRIMARY KEY (id)
+CREATE TABLE "TodoItems" (
+    "Id"         serial  NOT NULL,
+    "Name"       text    NOT NULL,
+    "IsComplete" boolean NOT NULL,
+    "Secret"     text,
+    CONSTRAINT todoitems_pk PRIMARY KEY ("Id")
 );
 

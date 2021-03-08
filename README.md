@@ -15,5 +15,6 @@ dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
 - [Create web APIs with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-5.0)
 - [Npgsql Entity Framework Core Provider](https://www.npgsql.org/efcore/)
 - [Introducción a EF Core](https://docs.microsoft.com/es-es/ef/core/get-started/overview/first-app?tabs=netcore-cli)
+- [Razor Pages with Entity Framework Core in ASP.NET Core - Tutorial 1 of 8](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.0&tabs=visual-studio-code)
 
 
