@@ -1,10 +1,10 @@
 CREATE SCHEMA todoapi;
 
 CREATE TABLE todoapi.todo_items (
-    "Id"         serial  NOT NULL,
-    "Name"       text    NOT NULL,
-    "IsComplete" boolean NOT NULL,
-    "Secret"     text,
-    CONSTRAINT todoitems_pk PRIMARY KEY ("Id")
+    item_id     serial  NOT NULL,
+    item_name   text    NOT NULL,
+    is_complete boolean NOT NULL,
+    item_secret text,
+    CONSTRAINT todoitems_pk PRIMARY KEY (item_id)
 );
 
