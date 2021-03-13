@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TodoApi.Models
 {
-    [Table("todo_items")]
+    [Table("todo_items", Schema = "todoapi")]
     public class TodoItemDTO
     {
         public long Id { get; set; }
