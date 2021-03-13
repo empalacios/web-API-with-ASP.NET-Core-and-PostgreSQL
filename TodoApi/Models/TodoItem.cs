@@ -1,5 +1,8 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace TodoApi.Models
 {
+    [Table("todo_items")]
     public class TodoItem
     {
         public long Id { get; set; }

@@ -1,7 +1,4 @@
--- DROP SCHEMA basedeprueba;
-
-
-CREATE TABLE "TodoItems" (
+CREATE TABLE todo_items (
     "Id"         serial  NOT NULL,
     "Name"       text    NOT NULL,
     "IsComplete" boolean NOT NULL,
